@@ -1,4 +1,4 @@
-# avr-gcc_OS_X
+# avr-gcc_OSX
 This is a way to compile and burn C files on your AVR microcontroller from Mac OS X
 
 ################################
@@ -33,4 +33,32 @@ brew install avrdude --with-usb
 ------------------------------
 - Download the files execute.sh and hello_avr.c from this source and connect your atmega328p
 
-./execute.sh
+sh execute.sh
+
+# avr-gcc_Linux
+This is a way to compile and burn C files on your AVR microcontroller from Linux
+
+######################
+## Install packages ##
+######################
+---------------------------------
+sudo apt-get update
+
+sudo apt-get upgrade all
+
+sudo apt-get install gcc-avr binutils-avr avr-libc
+
+sudo apt-get install gdb-avr
+
+sudo apt-get install avrdude
+
+------------------------------
+
+
+#############
+## Testing ##
+#############
+------------------------------
+- Download the files execute.sh and hello_avr.c from this source and connect your atmega328p
+
+sh execute.sh
