@@ -60,5 +60,6 @@ sudo apt-get install avrdude
 #############
 ------------------------------
 - Download the files execute.sh and hello_avr.c from this source and connect your atmega328p
+- Edit it and replace "/dev/tty.usbmodem*" with "/dev/ttyACM0"
 
 sh execute.sh
